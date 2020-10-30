@@ -1,0 +1,287 @@
+@font-face {
+  font-family: roboto;
+  src: url(Fonts/Roboto.ttf);
+}
+
+@font-face {
+  font-family: monsterrat;
+  src: url(Fonts/Montserrat.ttf);
+}
+
+@font-face {
+  font-family: fredokaOne;
+  src: url(Fonts/FredokaOne.ttf);
+}
+
+h1{
+  font-size: 35px;
+
+  width: 350px;
+
+  padding: 0px;
+  margin: 0px;
+
+  float: left;
+
+  font-family: roboto;
+
+  color: rgb(0,0,0);
+}
+
+.text{
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  
+  text-align: center;
+
+  color: white;
+
+  width: 50%;
+
+  align-self: center;
+
+  margin: auto;
+
+  font-family: monsterrat;
+}
+
+body{
+  background-color: rgb(20, 20, 15);
+  margin: 0px;
+}
+
+button{
+  font-size: 25px;
+
+  border: none;
+
+  background-color: #FF7129;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  float: left;
+
+  font-family: roboto;
+  justify-content: center;
+}
+
+.header{
+  background-color: rgb(255, 204, 0);
+  display: flex;
+  justify-content: normal;
+  color: rgb(0,0,0);
+}
+
+.importantImage{
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: solid;
+  border-radius: 8px;
+}
+
+.showcase{
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5%;
+}
+
+.showcaseText{
+  font-size: 20px;
+  text-align: center;
+  align-self: center;
+  color: white;
+  font-family: monsterrat;
+
+  margin-right: 50px;
+
+  padding: 15px;
+  width: 25%;
+  background-color: rgb(63, 63, 62);
+}
+
+.showcaseTitle{
+  font-size: 35px;
+  text-align: center;
+  align-self: center;
+  color: white;
+  font-family: fredokaOne;
+  margin-bottom: -10px;
+}
+
+.caption{
+  text-align: center;
+  font-family: monsterrat;
+  color: white;
+  margin-top: -20px;
+}
+
+.headerButton:hover{
+  background-color: rgb(255, 247, 0);
+}
+
+.headerButton{
+  margin-bottom: 0px;
+  justify-content: left;
+  color: rgb(0,0,0);
+  text-decoration: none;
+}
+
+.link{
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  
+  text-align: center;
+
+  width: 50%;
+
+  align-self: center;
+
+  margin: auto;
+
+  font-family: monsterrat;
+}
+
+.linkTitle{
+  font-size: 35px;
+  font-family: fredokaOne;
+  color: rgb(255, 174, 0);
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 174, 0);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.linkTitle:active{
+  color: rgb(255, 124, 100);
+}
+
+.backdrop{
+  background-color: rgb(63, 63, 62);
+  margin: auto;
+  width: 25%;
+  margin-top: 10%;
+}
+
+.headerTitle{
+  text-decoration: none;
+
+  font-size: 25px;
+
+  border: none;
+
+  background-color: rgb(255, 204, 0);
+
+  padding-left: 0px;
+  padding-right: 10px;
+
+  float: left;
+
+  font-family: roboto;
+
+  color: rgb(0,0,0);
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  text-align: center;
+}
+
+.headerButtons{
+  text-decoration: none;
+
+  font-size: 25px;
+
+  border: none;
+
+  background-color: rgb(255, 204, 0);
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  float: left;
+
+  font-family: roboto;
+
+  color: rgb(0,0,0);
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  text-align: center;
+
+  flex-grow: 3;
+}
+
+.headerLinks{
+  text-decoration: none;
+
+  font-size: 25px;
+
+  border: none;
+
+  background-color: rgb(255, 204, 0);
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  float: right;
+  align-self: right;
+
+  font-family: roboto;
+
+  color: rgb(0,0,0);
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  text-align: center;
+}
+.blog{
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-evenly;
+}
+
+.blogItem{
+  width: 450px;
+  height: 450px;
+  background-color: rgb(63, 63, 62);
+  margin-top: 5%;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.blogTitle{
+  font-size: 35px;
+  align-self: center;
+  color: white;
+  font-family: fredokaOne;
+
+  order: 0;
+}
+
+.blogText{
+  font-size: 20px;
+  
+  text-align: center;
+
+  color: white;
+  align-self: center;
+
+  font-family: monsterrat;
+
+  order: 1;
+}
